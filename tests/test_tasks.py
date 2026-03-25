@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'app'))
+
 from tasks import add_task, get_tasks
 
 def test_add_task():
